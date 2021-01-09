@@ -44,29 +44,30 @@ Your project is to design and implement a database for an online movie streaming
   
   1. View table content –list your tables for the user to choose, then upon user selection, display the content (tuples) in the table\
   
-  2. Insert new record into... (the exact attributes depend on your database design) The design is up to you –you could follow the attribute-by-attribute steps as described below once the user selects a table to insert into, or you could list all the attributes and accepts a string containing all attribute values (delimited by commas). When inserting a new rating, your trigger should update the average rating for the given movie. Also make sure that the number of profiles per account does not exceed 5.\
-    a. Account\
-       - Member ID\
-       - First name\
-       - Last name\
-       - Etc.\
-    b. Movie\
-       - Movie ID\
-       - Movie name\
-    c. Actor\
-       - Actor ID\
-       - First name\
-       - Last name\
-       - Etc.\
-    d. Profile\
-       - Member ID\
-       - Profile name\
-    e. History\
-       - Member ID\
-       - Profile name\
-       - Movie ID\
-       - rating\
-       - Etc.\
+  2. Insert new record into... (the exact attributes depend on your database design) The design is up to you –you could follow the attribute-by-attribute steps as described below once the user selects a table to insert into, or you could list all the attributes and accepts a string containing all attribute values (delimited by commas). When inserting a new rating, your trigger should update the average rating for the given movie. Also make sure that the number of profiles per account does not exceed 5.
+  
+    a. Account
+       - Member ID
+       - First name
+       - Last name
+       - Etc.
+    b. Movie
+       - Movie ID
+       - Movie name
+    c. Actor
+       - Actor ID
+       - First name
+       - Last name
+       - Etc.
+    d. Profile
+       - Member ID
+       - Profile name
+    e. History
+       - Member ID
+       - Profile name
+       - Movie ID
+       - rating
+       - Etc.
       
   3. Update record\
     a. Update (then ask for information to update)\
