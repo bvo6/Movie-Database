@@ -31,6 +31,9 @@ Menu:
  7) Exit
  
  Once the user picks an option from the menu, the program will keep asking the user if he/she wants to continue or go back to the menu by choosing the "Return to menu" option or Press enter to return. Any errors will be raised and output to the screen for invalid input and ask the user to try again.
+ 
+ #### Additional note:
+ The SQL file contains all the insertions and triggers to initialize/update the database. 
 
 
 
