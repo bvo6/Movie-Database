@@ -18,7 +18,7 @@ Your project is to design and implement a database for an online movie streaming
   
 3. Actors/Actresses. For each actor/actress:\
   a. Unique ID\
-  b. Name(first, last)\
+  b. Name(first, last)
   
 4. Each member can have up to 5 profiles in the account for different members in the household. For example, an account owner “princeharry” may have a profile for himself “Harry”, another profile “Meghan” for his wife, and a separate profile “Kid.”For each profile, we have:\
   a. Profile name (not unique across all members, but unique within an account)\
@@ -31,9 +31,9 @@ Your project is to design and implement a database for an online movie streaming
   
  You’re only required to make the interface for the DBMS user, who has access to manipulate and query from all relations.\
   • View table content: Give user a list of existing tables so that he/she can select one to view the tuples.\
-  • Add records: Enter information for new members, movies, actors, etc. Update/deleteinformation.\ 
-  • Search database: Allow users to search for movies based on title or actor; display all matching movies (movie name, year, and average rating) with their average ratings. You should use partial matching instead of exact matching for strings.\ 
-  • Show rental history for a given profile (you’ll need to ask for account info first, and then profile).
+  • Add records: Enter information for new members, movies, actors, etc. Update/deleteinformation.\
+  • Search database: Allow users to search for movies based on title or actor; display all matching movies (movie name, year, and average rating) with their average ratings. You should use partial matching instead of exact matching for strings.\
+  • Show rental history for a given profile (you’ll need to ask for account info first, and then profile).\
   • Exit the program
   
   Here is a suggestion on what your (command-line) menu should look like:\
@@ -47,7 +47,7 @@ Your project is to design and implement a database for an online movie streaming
       i. Member ID\
       ii. First name\
       iii. Last name\
-      iv. Etc.\   
+      iv. Etc.\
     b. Movie\
       i. Movie ID\
       ii. Movie name\
