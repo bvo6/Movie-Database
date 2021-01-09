@@ -25,7 +25,7 @@ Your project is to design and implement a database for an online movie streaming
 4. Each member can have up to 5 profiles in the account for different members in the household. For example, an account owner “princeharry” may have a profile for himself “Harry”, another profile “Meghan” for his wife, and a separate profile “Kid.”For each profile, we have:\
   a. Profile name (not unique across all members, but unique within an account)\
   b. Favoritemovie genre(s)\
-  c. Viewinghistory (see below)
+  c. Viewing history (see below)
   
 5. There is a separate viewing history for each “profile” created by a member. For the history, we want to store\
   a. Movies watched\
@@ -38,11 +38,11 @@ Your project is to design and implement a database for an online movie streaming
   • Show rental history for a given profile (you’ll need to ask for account info first, and then profile).\
   • Exit the program
   
-  Here is a suggestion on what your (command-line) menu should look like:\
+  Here is a suggestion on what your (command-line) menu should look like:
   
-  When the program starts, prompt the user for his/her login and password. This is the Oracle login/password. Please do not hard-code your own login information in the code. Once the program connects to the database successfully, display the following menu options. After each selection is executed, your program should go back to the main menu.\
+  When the program starts, prompt the user for his/her login and password. This is the Oracle login/password. Please do not hard-code your own login information in the code. Once the program connects to the database successfully, display the following menu options. After each selection is executed, your program should go back to the main menu.
   
-  1. View table content –list your tables for the user to choose, then upon user selection, display the content (tuples) in the table\
+  1. View table content –list your tables for the user to choose, then upon user selection, display the content (tuples) in the table
   
   2. Insert new record into... (the exact attributes depend on your database design) The design is up to you –you could follow the attribute-by-attribute steps as described below once the user selects a table to insert into, or you could list all the attributes and accepts a string containing all attribute values (delimited by commas). When inserting a new rating, your trigger should update the average rating for the given movie. Also make sure that the number of profiles per account does not exceed 5.
   
