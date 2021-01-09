@@ -3,13 +3,12 @@
 # General. 
 Your project is to design and implement a database for an online movie streaming company like Netflix. At the back-end, the database manages all of its data in the Oracle database management system. The database stores information about customers, movies, actors, and customer viewing history. At the front-end, you are required to implement a command-line interface to its users (DBMS users) using Java and JDBC (although if you love challenge and wantto build a web interfaceor a GUI, you can do so for extra credit). 
 
-1. Members. Store the following for eachmember:
-
+1. Members. Store the following for eachmember:\
   a. Unique member ID\
   b. Full name (first name, last name)\
   c. Credit card on filed.Profiles (see below)
   
-2. Movies. For each movie:
+2. Movies. For each movie:\
   a. Unique movieID\
   b. Movie name\
   c. Year it was produced\
@@ -17,17 +16,16 @@ Your project is to design and implement a database for an online movie streaming
   e. Producerf.Genre(s)\
   g. Average member rating
   
-3. Actors/Actresses. For each actor/actress:
+3. Actors/Actresses. For each actor/actress:\
   a. Unique ID\
   b. Name(first, last)\
   
-4. Each member can have up to 5 profiles in the account for different members in the household. For example, an account owner “princeharry” may have a profile for himself “Harry”, another profile “Meghan” for his wife, and a separate profile “Kid.”For each profile, we have:
-
+4. Each member can have up to 5 profiles in the account for different members in the household. For example, an account owner “princeharry” may have a profile for himself “Harry”, another profile “Meghan” for his wife, and a separate profile “Kid.”For each profile, we have:\
   a. Profile name (not unique across all members, but unique within an account)\
   b. Favoritemovie genre(s)\
   c. Viewinghistory (see below)
   
-5. There is a separate viewing history for each “profile” created by a member. For the history, we want to store
+5. There is a separate viewing history for each “profile” created by a member. For the history, we want to store\
   a. Movies watched\
   b. Ratings given by this profile, if available. Rating scale is from 1 to 5, 1 being “Do not like” and 5 being “Love the movie”
   
