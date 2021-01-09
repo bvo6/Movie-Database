@@ -6,7 +6,8 @@ Your project is to design and implement a database for an online movie streaming
 1. Members. Store the following for eachmember:\
   a. Unique member ID\
   b. Full name (first name, last name)\
-  c. Credit card on filed.Profiles (see below)
+  c. Credit card on file\
+  d. Profiles (see below)
   
 2. Movies. For each movie:\
   a. Unique movieID\
@@ -48,17 +49,21 @@ Your project is to design and implement a database for an online movie streaming
       ii. First name\
       iii. Last name\
       iv. Etc.\
+      
     b. Movie\
       i. Movie ID\
       ii. Movie name\
+      
     c. Actor\
       i. Actor ID\
       ii. First name\
       iii. Last name\
       iv. Etc.\
+      
     d. Profile\
       i. Member ID\
       ii. Profile name\
+      
     e. History\
       i. Member ID\
       ii. Profile name\
