@@ -1,0 +1,665 @@
+
+Table MEMBER dropped.
+
+
+Table GENRE dropped.
+
+
+Table MOVIE dropped.
+
+
+Table ACTOR dropped.
+
+
+Table PROFILE dropped.
+
+
+Table FAVORITE_GENRE dropped.
+
+
+Table MOVIES_WATCHED dropped.
+
+
+Table MOVIE_GENRE dropped.
+
+
+Table STARRED_BY dropped.
+
+
+Table MEMBER created.
+
+
+Table GENRE created.
+
+
+Table MOVIE created.
+
+
+Table ACTOR created.
+
+
+Table PROFILE created.
+
+
+Table FAVORITE_GENRE created.
+
+
+Table MOVIES_WATCHED created.
+
+
+Table MOVIE_GENRE created.
+
+
+Table STARRED_BY created.
+
+
+Trigger PROFILECREATION compiled
+
+
+Trigger VALIDRATING compiled
+
+
+Trigger MOVIERATING compiled
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+MEMBER_ID            FIRST_NAME      LAST_NAME       CARD_NUMBER      EXP_DATE  
+-------------------- --------------- --------------- ---------------- ----------
+dsmith               David           Smith           6421876547090904 08/21     
+ktran                Kevin           Tran            3672822357428625 01/22     
+awayne               Alex            Wayne           5753078750842374 08/24     
+jlynn                Joanne          Lynn            1593224122268740 07/21     
+cwang                Christine       Wang            5239378606960667 10/23     
+jdoe                 Jane            Doe             1192239371593598 12/24     
+jbrown               John            Brown           3340346226518092 06/26     
+
+7 rows selected. 
+
+
+M_GENRE   
+----------
+Action
+Adventure
+Comedy
+Drama
+Horror
+
+
+MOVIE_ID             TITLE                MOVIE_YEAR PRODUCER             AVG_RATING
+-------------------- -------------------- ---------- -------------------- ----------
+rsteel               Real Steel                 2011 Shawn Levy                  3.8
+tforeigner           The Foreigner              2017 Martin Campbell             3.5
+hman                 Hit Man                    2007 20th Century Fox            2.5
+camerica             Captain America            2011 Joe Johnston                3.5
+nsecurity            National Security          2003 Dennis Dugan               4.33
+mspy                 My Spy                     2020 Peter Segal                 1.5
+chearts              Chemical Hearts            2020 Richard Tanne              3.33
+tconjuring           The Conjuring              2013 James Wan                   4.5
+tboy                 The Boy                    2016 William Brent Bell          3.5
+mara                 Mara                       2017 Clive Tonge                2.67
+
+10 rows selected. 
+
+
+ACTOR_ID             FIRST_NAME LAST_NAME 
+-------------------- ---------- ----------
+hjackman             Hugh       Jackman   
+dgoyo                Dakota     Goyo      
+jchan                Jackie     Chan      
+obrady               Orla       Brady     
+tolyphant            Timothy    Olyphant  
+rknepper             Robert     Knepper   
+cevans               Chris      Evans     
+amackie              Anthony    Mackie    
+szahn                Steve      Zahn      
+mlawrence            Martin     Lawrence  
+dbautista            Dave       Bautista  
+
+ACTOR_ID             FIRST_NAME LAST_NAME 
+-------------------- ---------- ----------
+ccoleman             Chloe      Coleman   
+aabrams              Austin     Abrams    
+sjones               Sarah      Jones     
+vfarmiga             Vera       Farmiga   
+pwilson              Patrick    Wilson    
+lcohan               Lauren     Cohan     
+jrussell             James      Russell   
+okurylenko           Olga       Kurylenko 
+jbotet               Javier     Botet     
+
+20 rows selected. 
+
+
+MEMBER_ID            PROFILE_NAME        
+-------------------- --------------------
+awayne               ewayne              
+awayne               pwayne              
+cwang                jwang               
+cwang                kwang               
+dsmith               bsmith              
+dsmith               esmith              
+dsmith               jsmith              
+dsmith               lsmith              
+jbrown               bbrown              
+jbrown               lbrown              
+jdoe                 kdoe                
+
+MEMBER_ID            PROFILE_NAME        
+-------------------- --------------------
+jdoe                 mdoe                
+jdoe                 pdoe                
+jlynn                alynn               
+jlynn                jlynn2              
+ktran                etran               
+ktran                itran               
+
+17 rows selected. 
+
+
+MEMBER_ID            PROFILE_NAME         M_GENRE        
+-------------------- -------------------- ---------------
+awayne               ewayne               Drama          
+awayne               pwayne               Action         
+cwang                jwang                Adventure      
+cwang                kwang                Comedy         
+dsmith               bsmith               Drama          
+dsmith               esmith               Comedy         
+dsmith               esmith               Horror         
+dsmith               jsmith               Action         
+dsmith               lsmith               Comedy         
+jbrown               bbrown               Drama          
+jbrown               lbrown               Action         
+
+MEMBER_ID            PROFILE_NAME         M_GENRE        
+-------------------- -------------------- ---------------
+jdoe                 kdoe                 Action         
+jdoe                 mdoe                 Adventure      
+jdoe                 pdoe                 Horror         
+jlynn                alynn                Horror         
+jlynn                jlynn2               Action         
+ktran                etran                Comedy         
+ktran                itran                Adventure      
+
+18 rows selected. 
+
+
+MEMBER_ID            PROFILE_NAME         MOVIE_ID                 RATING
+-------------------- -------------------- -------------------- ----------
+dsmith               jsmith               rsteel                        3
+dsmith               esmith               rsteel                        4
+dsmith               esmith               tforeigner                    4
+dsmith               jsmith               chearts                       4
+ktran                etran                rsteel                        2
+ktran                itran                camerica                      4
+ktran                etran                hman                          4
+ktran                etran                mspy                          1
+awayne               ewayne               nsecurity                     4
+awayne               pwayne               mspy                          2
+awayne               pwayne               tboy                          3
+
+MEMBER_ID            PROFILE_NAME         MOVIE_ID                 RATING
+-------------------- -------------------- -------------------- ----------
+jlynn                jlynn2               tconjuring                    4
+jlynn                alynn                tboy                          4
+cwang                kwang                mara                          3
+cwang                jwang                mara                          2
+cwang                jwang                rsteel                        5
+jdoe                 pdoe                 mara                          3
+jdoe                 pdoe                 rsteel                        5
+jdoe                 kdoe                 camerica                      3
+jdoe                 mdoe                 chearts                       4
+jdoe                 kdoe                 chearts                       2
+jdoe                 mdoe                 hman                          1
+
+MEMBER_ID            PROFILE_NAME         MOVIE_ID                 RATING
+-------------------- -------------------- -------------------- ----------
+jbrown               bbrown               nsecurity                     4
+jbrown               lbrown               tforeigner                    3
+jbrown               lbrown               nsecurity                     5
+jbrown               bbrown               tconjuring                    5
+
+26 rows selected. 
+
+
+MOVIE_ID             M_GENRE        
+-------------------- ---------------
+camerica             Adventure      
+chearts              Drama          
+hman                 Adventure      
+mara                 Horror         
+mspy                 Comedy         
+nsecurity            Comedy         
+rsteel               Action         
+tboy                 Horror         
+tconjuring           Horror         
+tforeigner           Action         
+
+10 rows selected. 
+
+
+MOVIE_ID             ACTOR_ID            
+-------------------- --------------------
+camerica             amackie             
+camerica             cevans              
+chearts              aabrams             
+chearts              sjones              
+hman                 rknepper            
+hman                 tolyphant           
+mara                 jbotet              
+mara                 okurylenko          
+mspy                 ccoleman            
+mspy                 dbautista           
+nsecurity            mlawrence           
+
+MOVIE_ID             ACTOR_ID            
+-------------------- --------------------
+nsecurity            szahn               
+rsteel               dgoyo               
+rsteel               hjackman            
+tboy                 jrussell            
+tboy                 lcohan              
+tconjuring           pwilson             
+tconjuring           vfarmiga            
+tforeigner           jchan               
+tforeigner           obrady              
+
+20 rows selected. 
+
