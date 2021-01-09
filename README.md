@@ -29,21 +29,21 @@ Your project is to design and implement a database for an online movie streaming
   a. Movies watched\
   b. Ratings given by this profile, if available. Rating scale is from 1 to 5, 1 being “Do not like” and 5 being “Love the movie”
   
- You’re only required to make the interface for the DBMS user, who has access to manipulate and query from all relations.
+ You’re only required to make the interface for the DBMS user, who has access to manipulate and query from all relations.\
   • View table content: Give user a list of existing tables so that he/she can select one to view the tuples.\
   • Add records: Enter information for new members, movies, actors, etc. Update/deleteinformation.\ 
   • Search database: Allow users to search for movies based on title or actor; display all matching movies (movie name, year, and average rating) with their average ratings. You should use partial matching instead of exact matching for strings.\ 
   • Show rental history for a given profile (you’ll need to ask for account info first, and then profile).
   • Exit the program
   
-  Here is a suggestion on what your (command-line) menu should look like:
+  Here is a suggestion on what your (command-line) menu should look like:\
   
-  When the program starts, prompt the user for his/her login and password. This is the Oracle login/password. Please do not hard-code your own login information in the code. Once the program connects to the database successfully, display the following menu options. After each selection is executed, your program should go back to the main menu.
+  When the program starts, prompt the user for his/her login and password. This is the Oracle login/password. Please do not hard-code your own login information in the code. Once the program connects to the database successfully, display the following menu options. After each selection is executed, your program should go back to the main menu.\
   
-  1. View table content –list your tables for the user to choose, then upon user selection, display the content (tuples) in the table
+  1. View table content –list your tables for the user to choose, then upon user selection, display the content (tuples) in the table\
   
-  2. Insert new record into... (the exact attributes depend on your database design) The design is up to you –you could follow the attribute-by-attribute steps as described below once the user selects a table to insert into, or you could list all the attributes and accepts a string containing all attribute values (delimited by commas). When inserting a new rating, your trigger should update the average rating for the given movie. Also make sure that the number of profiles per account does not exceed 5.
-    a. Account
+  2. Insert new record into... (the exact attributes depend on your database design) The design is up to you –you could follow the attribute-by-attribute steps as described below once the user selects a table to insert into, or you could list all the attributes and accepts a string containing all attribute values (delimited by commas). When inserting a new rating, your trigger should update the average rating for the given movie. Also make sure that the number of profiles per account does not exceed 5.\
+    a. Account\
       i. Member ID\
       ii. First name\
       iii. Last name\
@@ -68,7 +68,7 @@ Your project is to design and implement a database for an online movie streaming
       
   3. Update record\
     a. Update (then ask for information to update)\
-    b. Delete (then ask for record to delete)
+    b. Delete (then ask for record to delete)\
     
   4. Search for movies\
     a. Movie name\
